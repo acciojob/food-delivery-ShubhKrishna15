@@ -8,7 +8,12 @@ public class OrderDetailsResponse {
 	private String items[];
 	private String userId;
 	private boolean status;
-	public String getOrderId() {
+
+	public OrderDetailsResponse(){};
+    public OrderDetailsResponse(String orderId, float cost, String[] items, String userId, boolean status) {
+    }
+
+    public String getOrderId() {
 		return orderId;
 	}
 

@@ -6,8 +6,11 @@ public class UserResponse {
 	private String email;
 	private String firstName;
 	private String lastName;
+	public UserResponse(){};
+    public UserResponse(String userId, String email, String firstName, String lastName) {
+    }
 
-	public String getUserId() {
+    public String getUserId() {
 		return userId;
 	}
 
